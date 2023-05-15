@@ -34,7 +34,7 @@ A professional web developer's portfolio site with their projects, professional,
 
 
 
-### Miro Board
-
+### Component Tree
+<img width="787" alt="Screenshot 2023-05-15 at 2 39 44 PM" src="https://github.com/justenanderson-commits/dev-portfolio/assets/104015966/700fbcfe-96ec-460b-b6a2-7839ee2ff279">
 
 ### GitHub Project Board
