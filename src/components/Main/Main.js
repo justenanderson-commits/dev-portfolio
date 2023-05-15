@@ -1,5 +1,9 @@
+import './Main.css'
+
 const Main = () => {
-  return <>Main Content</>
+  return <div className='main'>
+    Main Content
+  </div>
 }
 
 export default Main
