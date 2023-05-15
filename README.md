@@ -27,6 +27,8 @@ A professional web developer's portfolio site with their projects, professional,
 ### Figma Wireframe
 <img width="675" alt="Screenshot 2023-05-15 at 11 24 49 AM" src="https://github.com/justenanderson-commits/portfolio/assets/104015966/3f304c97-97a9-4224-b192-88fa829f1b88">
 <img width="675" alt="Screenshot 2023-05-15 at 11 25 01 AM" src="https://github.com/justenanderson-commits/portfolio/assets/104015966/460f4d7d-9fc9-446c-a5c4-a35a9f8d34ed">
+<img width="356" alt="Screenshot 2023-05-15 at 12 34 05 PM" src="https://github.com/justenanderson-commits/dev-portfolio/assets/104015966/b06d3a0a-e5b5-4315-a9ab-a0e431b05fba">
+<img width="714" alt="Screenshot 2023-05-15 at 12 25 30 PM" src="https://github.com/justenanderson-commits/dev-portfolio/assets/104015966/3bf744ca-e771-4354-9afd-07c09d20def0">
 <img width="474" alt="Screenshot 2023-05-15 at 11 41 31 AM" src="https://github.com/justenanderson-commits/portfolio/assets/104015966/e63c5d98-1eb7-40f6-8dea-5ffc897ef987">
 <img width="675" alt="Screenshot 2023-05-15 at 11 25 12 AM" src="https://github.com/justenanderson-commits/portfolio/assets/104015966/1adcefa0-48f5-4a1e-88fb-16cd5457f5ee">
 <img width="675" alt="Screenshot 2023-05-15 at 11 25 22 AM" src="https://github.com/justenanderson-commits/portfolio/assets/104015966/d527167b-f552-4a81-a08d-cd31e2c00ee3">
