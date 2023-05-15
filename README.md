@@ -3,7 +3,6 @@
 # Justen Anderson's Portfolio
 A professional web developer's portfolio site with their projects, professional, and educational history.
 
- - [Deployed app](https://menu-ify.vercel.app/) 
  - [Front-end repo](https://github.com/justenanderson-commits/portfolio)
 
 ### GIFs
