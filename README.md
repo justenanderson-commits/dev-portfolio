@@ -1,7 +1,5 @@
 # Work In Progress
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 # Justen Anderson's Portfolio
 A professional web developer's portfolio site with their projects, professional, and educational history.
 
@@ -12,7 +10,6 @@ A professional web developer's portfolio site with their projects, professional,
 
 
 ## Technologies
-- Next.js
 - React
 - Javascript
 - HTML 
@@ -20,8 +17,8 @@ A professional web developer's portfolio site with their projects, professional,
 - Webpack module bundler
 - Git/GitHub
 - GitHub project board
-- Slack
-- Zoom
+- ChatGPT
+- Excalidraw
 
 
 ## Installation instructions
