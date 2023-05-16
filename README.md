@@ -1,4 +1,10 @@
 # Work In Progress
+## Notes
+- Separate styling classes from layout classes
+- Install Tailwind, follow docs. Cmd + K to search docs. Install VS Code Intellisense for Tailwind.
+- Add dark mode and light mode options.
+- Go for the essence of the design, not pixel perfection.
+- Research DOM manipulation
 
 # Justen Anderson's Portfolio
 A professional web developer's portfolio site with their projects, professional, and educational history.
@@ -35,6 +41,7 @@ A professional web developer's portfolio site with their projects, professional,
 
 
 ### Component Tree
+<img width="787" alt="Screenshot 2023-05-16 at 8 40 02 AM" src="https://github.com/justenanderson-commits/dev-portfolio/assets/104015966/a71a1997-809c-4fcf-896d-7016be6f929e">
 
 
 ### GitHub Project Board
