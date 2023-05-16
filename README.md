@@ -1,9 +1,14 @@
 # Work In Progress
+## Notes
+- Separate styling classes from layout classes
+- Install Tailwind, follow docs. Cmd + K to search docs. Install VS Code Intellisense for Tailwind.
+- Add dark mode and light mode options.
+- Go for the essence of the design, not pixel perfection.
+- Research DOM manipulation
 
 # Justen Anderson's Portfolio
 A professional web developer's portfolio site with their projects, professional, and educational history.
 
- - [Deployed app](https://menu-ify.vercel.app/) 
  - [Front-end repo](https://github.com/justenanderson-commits/portfolio)
 
 ### GIFs
@@ -32,10 +37,11 @@ A professional web developer's portfolio site with their projects, professional,
 <img width="714" alt="Screenshot 2023-05-15 at 12 25 30 PM" src="https://github.com/justenanderson-commits/dev-portfolio/assets/104015966/3bf744ca-e771-4354-9afd-07c09d20def0">
 <img width="675" alt="Screenshot 2023-05-15 at 11 25 12 AM" src="https://github.com/justenanderson-commits/portfolio/assets/104015966/1adcefa0-48f5-4a1e-88fb-16cd5457f5ee">
 <img width="675" alt="Screenshot 2023-05-15 at 11 25 22 AM" src="https://github.com/justenanderson-commits/portfolio/assets/104015966/d527167b-f552-4a81-a08d-cd31e2c00ee3">
+<img width="787" alt="Screenshot 2023-05-16 at 8 40 02 AM" src="https://github.com/justenanderson-commits/dev-portfolio/assets/104015966/fd0592e4-d9b3-453d-b64c-aaba3de6c24f">
 
 
-
-### Miro Board
+### Component Tree
+<img width="787" alt="Screenshot 2023-05-16 at 8 40 02 AM" src="https://github.com/justenanderson-commits/dev-portfolio/assets/104015966/a71a1997-809c-4fcf-896d-7016be6f929e">
 
 
 ### GitHub Project Board
