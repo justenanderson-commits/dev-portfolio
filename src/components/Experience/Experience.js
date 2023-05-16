@@ -1,6 +1,10 @@
+import ExpCard from "../ExpCard/ExpCard";
+
 const Experience = () => {
   return (
-    <>Experience</>
+    <div>Experience
+      <ExpCard />
+    </div>
   );
 }
  

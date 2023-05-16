@@ -1,6 +1,11 @@
+import ProjCard from "../ProjCard/ProjCard";
+
 const Projects = () => {
   return (
-    <>Projects</>
+    <div>
+      Projects
+      <ProjCard />
+    </div>
   );
 }
  
