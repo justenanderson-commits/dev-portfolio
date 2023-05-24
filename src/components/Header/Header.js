@@ -48,7 +48,7 @@ export default function Header() {
           Contact
         </a>
       </Typography>
-      <Typography
+      {/* <Typography
         as="li"
         variant="small"
         color="blue-gray"
@@ -57,7 +57,7 @@ export default function Header() {
         <a href="#" className="flex items-center  text-xl">
           Blog
         </a>
-      </Typography>
+      </Typography> */}
     </ul>
   )
 
