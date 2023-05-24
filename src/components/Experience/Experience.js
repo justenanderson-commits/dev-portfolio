@@ -18,7 +18,7 @@ const Experience = () => {
     unmount: { scale: 0.9 },
   }
   return (
-    <div className="border-2 border-black mx-36 my-4 rounded-lg">
+    <div className="border-2 border-slate-900 mx-36 my-4 rounded-lg">
       <ExpCard />
 
       <Fragment>
