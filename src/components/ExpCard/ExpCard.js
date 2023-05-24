@@ -1,6 +1,6 @@
 const ExpCard = () => {
   return (
-    <>ExpCard</>
+    <div className=""></div>
   );
 }
  
