@@ -1,12 +1,11 @@
 import { Fragment, useState } from "react";
-import ExpCard from '../ExpCard/ExpCard'
 import {
   Accordion,
   AccordionHeader,
   AccordionBody,
 } from "@material-tailwind/react";
 
-const Experience = () => {
+const CertsAwards = () => {
   const [open, setOpen] = useState(0);
  
   const handleOpen = (value) => {
@@ -18,16 +17,14 @@ const Experience = () => {
     unmount: { scale: 0.9 },
   }
   return (
-    <div className="border-2 border-black mx-36 my-4 rounded-lg">
-      <ExpCard />
-
+    <div className="border-2 border-slate-900 mx-36 my-4 rounded-lg">
       <Fragment>
         <Accordion open={open === 1}>
           <AccordionHeader className='p-4' onClick={() => handleOpen(1)}>
-            Experience
+            Certifications & Awards
           </AccordionHeader>
           <AccordionBody className='p-4'>
-            Freelance and Volunteer Web Developer
+            Turing Cert, Teaching License, Awards, etc.
           </AccordionBody>
         </Accordion>
       </Fragment>
@@ -35,6 +32,6 @@ const Experience = () => {
     );
 }
 
-export default Experience
+export default CertsAwards
 
 
