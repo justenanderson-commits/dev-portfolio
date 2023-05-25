@@ -4,16 +4,17 @@ const Home = () => {
 
   const handleLearnMore = () => {
     console.log('This fires')
-    const element = document.querySelector('.about-title')
+    console.log('Position :', document.querySelector('.home-page'))
+    const element = document.querySelector('.home-page')
     window.scrollTo({
-      top: element?.getBoundingClientRect().top,
+      top: element?.getBoundingClientRect().bottom,
       left: 0,
       behavior: 'smooth'
     })
   }
 
   return (
-    <div className="text-slate-100 text-2xl min-h-9/10 bg-slate-900 pt-20 flex flex-col items-center">
+    <div id="home-page" className="home-page text-slate-100 text-2xl min-h-9/10 bg-slate-900 pt-20 flex flex-col items-center">
       <h1 className="text-7xl text-center pb-5">Justen Anderson</h1>
       <h2 className="text-4xl text-center text-sky-300">Software Engineer</h2>
       <p className="text-slate-300 pt-5 px-32 text-left">
