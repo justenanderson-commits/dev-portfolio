@@ -2,7 +2,7 @@ import { Button } from "@material-tailwind/react";
 
 const Home = () => {
   return (
-    <div className="text-slate-100 text-2xl w-full h-screen h-8/10 bg-slate-900 pt-20 flex flex-col items-center">
+    <div className="text-slate-100 text-2xl w-full h-screen bg-slate-900 pt-20 flex flex-col items-center">
       <h1 className="text-7xl text-center pb-5">Justen Anderson</h1>
       <h2 className="text-4xl text-center text-sky-300">Software Engineer</h2>
       <p className="text-slate-300 pt-5 px-32 text-left">
