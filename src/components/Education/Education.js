@@ -18,7 +18,7 @@ const Education = () => {
     unmount: { scale: 0.9 },
   }
   return (
-    <div className="border-2 border-slate-900 mx-36 my-4 rounded-lg">
+    <div className="bg-sky-100 border-2 border-slate-900 mx-36 my-4 rounded-lg">
       <EduCard />
 
       <Fragment>
