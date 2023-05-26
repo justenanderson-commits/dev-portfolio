@@ -23,7 +23,7 @@ const Education = () => {
 
       <Fragment>
         <Accordion open={open === 1}>
-          <AccordionHeader className='p-4' onClick={() => handleOpen(1)}>
+          <AccordionHeader className='p-4 bg-sky-100' onClick={() => handleOpen(1)}>
             Education
           </AccordionHeader>
           <AccordionBody className='p-4'>
