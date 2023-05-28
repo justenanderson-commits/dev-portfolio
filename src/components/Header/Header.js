@@ -73,8 +73,9 @@ export default function Header() {
           </Typography>
           <Typography
             as="a"
-            href="#"
+            href="https://www.linkedin.com/in/justen-anderson-522062239/"
             className="mr-4 cursor-pointer py-.5 text-xl"
+            target='_blank'
           >
             LI
           </Typography>
