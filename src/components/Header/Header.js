@@ -1,8 +1,5 @@
 import React from 'react'
-import {
-  Navbar,
-  Typography,
-} from '@material-tailwind/react'
+import { Navbar, Typography } from '@material-tailwind/react'
 
 export default function Header() {
   const [openNav, setOpenNav] = React.useState(false)
@@ -37,7 +34,6 @@ export default function Header() {
         </a>
       </Typography>
 
-
       <Typography
         as="li"
         variant="small"
@@ -58,34 +54,27 @@ export default function Header() {
           Contact
         </a>
       </Typography>
-     </ul>
+    </ul>
   )
 
   return (
-      <Navbar className="sticky inset-0 z-10 h-max max-w-full rounded-none py-0 px-0 lg:px-8 lg:py-4 bg-slate-900">
-        <div className="flex items-center justify-between text-blue-gray-900">
-          <div className='flex'><Typography
+    <Navbar className="sticky inset-0 z-10 h-max max-w-full rounded-none py-0 px-0 lg:px-8 lg:py-4 bg-slate-900">
+      <div className="flex items-center justify-between text-blue-gray-900">
+        <div className="flex">
+          <Typography
             as="a"
             href="https://github.com/justenanderson-commits/dev-portfolio/tree/main"
             className="mr-4 cursor-pointer py-.5 text-xl"
             target="blank"
           >
-            Repo
+            Project Repo
           </Typography>
-          <Typography
-            as="a"
-            href="https://www.linkedin.com/in/justen-anderson-522062239/"
-            className="mr-4 cursor-pointer py-.5 text-xl"
-            target='_blank'
-          >
-            LI
-          </Typography>
-          </div>
-          <div className="flex items-center gap-4">
-            <div className="mr-4 hidden lg:block">{navList}</div>
-            {/*  */}
-          </div>
         </div>
-      </Navbar>
+        <div className="flex items-center gap-4">
+          <div className="mr-4 hidden lg:block">{navList}</div>
+          {/*  */}
+        </div>
+      </div>
+    </Navbar>
   )
 }
