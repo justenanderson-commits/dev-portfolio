@@ -3,9 +3,9 @@ import { Button } from "@material-tailwind/react";
 const Home = () => {
 
   const handleLearnMore = () => {
-    const element = document.querySelector('.home-page')
+    const element = document.querySelector('.about')
     window.scrollTo({
-      top: element?.getBoundingClientRect().bottom,
+      top: window.innerHeight,
       left: 0,
       behavior: 'smooth'
     })
