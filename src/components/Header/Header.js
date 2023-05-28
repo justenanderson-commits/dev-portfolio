@@ -1,9 +1,7 @@
 import React from 'react'
 import {
   Navbar,
-  MobileNav,
   Typography,
-  IconButton,
 } from '@material-tailwind/react'
 
 export default function Header() {
@@ -24,8 +22,8 @@ export default function Header() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center text-xl">
-          About
+        <a href="/" className="flex items-center text-xl">
+          Home
         </a>
       </Typography>
       <Typography
@@ -34,7 +32,19 @@ export default function Header() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center text-xl">
+        <a href="/about" className="flex items-center text-xl">
+          About
+        </a>
+      </Typography>
+
+
+      <Typography
+        as="li"
+        variant="small"
+        color="blue-gray"
+        className="p-1 font-normal"
+      >
+        <a href="/projects" className="flex items-center text-xl">
           Projects
         </a>
       </Typography>
@@ -44,7 +54,7 @@ export default function Header() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center text-xl">
+        <a href="/contact" className="flex items-center text-xl">
           Contact
         </a>
       </Typography>
