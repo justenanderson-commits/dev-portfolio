@@ -66,10 +66,11 @@ export default function Header() {
         <div className="flex items-center justify-between text-blue-gray-900">
           <div className='flex'><Typography
             as="a"
-            href="#"
+            href="https://github.com/justenanderson-commits/dev-portfolio/tree/main"
             className="mr-4 cursor-pointer py-.5 text-xl"
+            target="blank"
           >
-            GH
+            Repo
           </Typography>
           <Typography
             as="a"
@@ -78,13 +79,6 @@ export default function Header() {
             target='_blank'
           >
             LI
-          </Typography>
-          <Typography
-            as="a"
-            href="#"
-            className="mr-4 cursor-pointer py-.5 text-xl"
-          >
-            ✉️
           </Typography>
           </div>
           <div className="flex items-center gap-4">
