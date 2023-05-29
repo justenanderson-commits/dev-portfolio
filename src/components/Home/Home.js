@@ -1,10 +1,6 @@
 import { Button } from '@material-tailwind/react'
-// import myInfo from "../../api/dummy_data"
 
 const Home = ({ myInfo }) => {
-  // This works:
-  console.log('My Legit Info: ', myInfo.homeSummary)
-
   const handleLearnMore = () => {
     const element = document.querySelector('.about')
     window.scrollTo({

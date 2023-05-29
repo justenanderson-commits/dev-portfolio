@@ -5,11 +5,11 @@ import Projects from '../Projects/Projects'
 import data from "../../api/dummy_data"
 
 const Main = () => {
-  console.log('Data: ', data)
+  // console.log('Data: ', data)
   return <div className='main relative'>
     <Home myInfo={ data }/>
     <About  />
-    <Projects data={ data }  />
+    <Projects myInfo={ data }  />
     <Contact />
   </div>
 }
