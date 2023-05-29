@@ -61,19 +61,18 @@ export default function Header() {
     <Navbar className="sticky inset-0 z-10 h-max max-w-full rounded-none py-0 px-0 lg:px-8 lg:py-4 bg-slate-900">
       <div className="flex items-center justify-between text-blue-gray-900">
         <div className="flex">
-
-          <Typography
-            as="a"
-            href="https://github.com/justenanderson-commits/dev-portfolio/tree/main"
-            className="ml-2 font-bold text-sky-500 cursor-pointer text-md"
-            target="blank"
-          >
-            Repo
-          </Typography>
+          <a href="https://github.com/justenanderson-commits/dev-portfolio/tree/main"  target="blank">
+            <Button
+              // as="a"
+              // href="https://github.com/justenanderson-commits/dev-portfolio/tree/main"
+              className="ml-2 font-bold text-sky-500 cursor-pointer text-md"
+            >
+              Repo
+            </Button>
+          </a>
         </div>
         <div className="flex items-center gap-4">
           <div className="mr-4 hidden lg:block">{navList}</div>
-          {/*  */}
         </div>
       </div>
     </Navbar>
