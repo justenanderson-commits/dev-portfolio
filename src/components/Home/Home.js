@@ -24,7 +24,7 @@ const Home = () => {
         processes, and the lives of other people.
       </p>
       <div className="mt-24 ">
-      <Button onClick= { handleLearnMore }className='mb-36 text-sky-300 border-sky-400' variant="outlined">Learn More</Button>
+      <Button onClick= { handleLearnMore } className='mb-36 text-sky-300 border-sky-400' variant="outlined">Learn More</Button>
       </div>
     </div>
   )

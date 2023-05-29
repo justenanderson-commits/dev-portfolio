@@ -1,5 +1,5 @@
 import React from 'react'
-import { Navbar, Typography } from '@material-tailwind/react'
+import { Button, Navbar, Typography } from '@material-tailwind/react'
 
 export default function Header() {
   const [openNav, setOpenNav] = React.useState(false)
@@ -61,13 +61,14 @@ export default function Header() {
     <Navbar className="sticky inset-0 z-10 h-max max-w-full rounded-none py-0 px-0 lg:px-8 lg:py-4 bg-slate-900">
       <div className="flex items-center justify-between text-blue-gray-900">
         <div className="flex">
+
           <Typography
             as="a"
             href="https://github.com/justenanderson-commits/dev-portfolio/tree/main"
-            className="mr-4 cursor-pointer py-.5 text-xl"
+            className="ml-2 font-bold text-sky-500 cursor-pointer text-md"
             target="blank"
           >
-            Project Repo
+            Repo
           </Typography>
         </div>
         <div className="flex items-center gap-4">
