@@ -7,16 +7,17 @@ const ProjContainer = ({ myInfo }) => {
         <ProjCard
           name={project.name}
           description={project.description}
-          image ={ project.img }
+          image={project.img}
+          url={project.url}
           id={project.name}
           key={project.name}
         />
       )
     })
   }
-  return <div className="grid grid-cols-3 gap-12 border-white">
-    {showProjects()}
-  </div>
+  return (
+    <div className="grid grid-cols-3 gap-12 border-white">{showProjects()}</div>
+  )
 }
 
 export default ProjContainer
