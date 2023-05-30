@@ -1,5 +1,3 @@
-import menuify_sm from '../../assets/menuify_300x500.png'
-
 const ProjCard = ({ name, description, image }) => {
   return (
     <div className="max-w-lg border-white border-2 rounded-xl mx-auto my-10">
