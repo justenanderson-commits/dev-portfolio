@@ -7,6 +7,7 @@ const ProjContainer = ({ myInfo }) => {
         <ProjCard
           name={project.name}
           description={project.description}
+          image ={ project.img }
           id={project.name}
           key={project.name}
         />

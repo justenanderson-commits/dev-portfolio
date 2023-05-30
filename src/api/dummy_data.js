@@ -1,3 +1,7 @@
+import menuify_img from '../assets/menuify_300x500.png'
+import pawfect_img from '../assets/pawfect_300x500.png'
+import rancid_img from '../assets/rancid_300x500.png'
+
 const data = {
   homeSummary:
     'Passionate learner and hard worker with a strong record of success in the military, education, and private industry. I value honesty, deep connections, and achievement. I love collaborating, mentoring, and learning from others. Pair-programming is preferred. Complex technical challenges excite me, and I work to purposefully improve products, processes, and the lives of other people.',
@@ -39,20 +43,20 @@ const data = {
     name: 'Menuify',
     description: 'Menu application for restaurant owners to create beautiful, intuitive menus.',
     url:'https://menu-ify.vercel.app/',
-    img:'',
+    img: menuify_img,
     gif:''
   },
   {
     name: 'Pawfect Match',
     description: 'Dog finder app for people to research breeds based on their lifestyle and preferences.',
     url:'https://pawfect-match.vercel.app/',
-    img:'',
+    img: pawfect_img,
     gif:''
   },{
     name: 'Rancid Tomatillos',
-    description: 'Movie collection application that allows users to filter titles by rating.',
+    description: 'Movie collection application that allows users to browse and filter titles by rating.',
     url:'https://rancid-tomatillos-puce.vercel.app/',
-    img:'',
+    img:rancid_img,
     gif:''
   },]
 }
