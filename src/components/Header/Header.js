@@ -1,15 +1,22 @@
 import React from 'react'
 import { Button, Navbar, Typography } from '@material-tailwind/react'
+import Projects from '../Projects/Projects'
 
-export default function Header() {
+const Header = ({ myInfo }) => {
   const [openNav, setOpenNav] = React.useState(false)
-
   React.useEffect(() => {
     window.addEventListener(
       'resize',
       () => window.innerWidth >= 960 && setOpenNav(false)
     )
   }, [])
+
+  const showProjects = () => {
+    console.log('This fires')
+    return (
+      <Projects myInfo={ myInfo }/>
+    )
+  }
 
   const navList = (
     <ul className="mb-0 mt-0 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
@@ -40,7 +47,7 @@ export default function Header() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="/projects" className="flex items-center text-xl">
+        <a onClick={ () => showProjects } href="/projects" className="flex items-center text-xl">
           Projects
         </a>
       </Typography>
@@ -78,3 +85,5 @@ export default function Header() {
     </Navbar>
   )
 }
+
+export default Header

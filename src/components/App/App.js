@@ -6,15 +6,18 @@ import About from '../About/About'
 import Projects from '../Projects/Projects'
 import Contact from '../Contact/Contact'
 
-function App() {
+
+
+const App = ({ data }) => {
+  console.log('myInfo: ', data)
   return (
     <div className="App">
       <Router>
         <Header />
         <Routes>
-          <Route path="/" element={<Main />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/projects" element={<Projects />} />
+          <Route path="/" element={<Main myInfo={ data }/>} />
+          <Route path="/about" element={<About myInfo={ data }/>} />
+          <Route path="/projects" element={<Projects myInfo={ data }/>} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </Router>
