@@ -2,6 +2,10 @@ import React from 'react'
 import { Button, Navbar, Typography } from '@material-tailwind/react'
 import Projects from '../Projects/Projects'
 
+
+// The current problem is that the showProjects function needs to live on the App component and be passed down to the project container component and the header component so that it can fire on-click. The data is already getting to the header. The function just needs to be moved.
+
+
 const Header = ({ myInfo }) => {
   console.log('MyInfo from header: ', myInfo.projects)
   const [openNav, setOpenNav] = React.useState(false)
@@ -12,7 +16,7 @@ const Header = ({ myInfo }) => {
     )
   }, [])
 
-  const showProjects = () => {
+  const showAllProjects = (myInfo) => {
     console.log('This fires')
     return (
       <Projects myInfo={ myInfo }/>
@@ -48,7 +52,7 @@ const Header = ({ myInfo }) => {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a onClick={ () => showProjects() } href="/projects" className="flex items-center text-xl">
+        <a onClick={ () => showAllProjects() } href="/projects" className="flex items-center text-xl">
           Projects
         </a>
       </Typography>
