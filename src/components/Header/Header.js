@@ -3,7 +3,7 @@ import { Button, Navbar, Typography } from '@material-tailwind/react'
 import Projects from '../Projects/Projects'
 
 const Header = ({ myInfo }) => {
-  console.log('MyInfo from header: ', myInfo)
+  console.log('MyInfo from header: ', myInfo.projects)
   const [openNav, setOpenNav] = React.useState(false)
   React.useEffect(() => {
     window.addEventListener(
@@ -48,7 +48,7 @@ const Header = ({ myInfo }) => {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a onClick={ () => showProjects } href="/projects" className="flex items-center text-xl">
+        <a onClick={ () => showProjects() } href="/projects" className="flex items-center text-xl">
           Projects
         </a>
       </Typography>
