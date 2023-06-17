@@ -6,7 +6,7 @@ import Main from '../Main/Main'
 import About from '../About/About'
 import Projects from '../Projects/Projects'
 import Contact from '../Contact/Contact'
-import data from '../../api/dummy_data copy'
+import data from '../../api/dummy_data'
 
 
 const App = () => {
