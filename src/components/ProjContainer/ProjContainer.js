@@ -1,8 +1,13 @@
 import ProjCard from '../ProjCard/ProjCard'
 
+// Current issue is that my projects link now works. It is rendering correctly.
+//But the home page no longer loads correctly. 
+// Something about the differently destructured props between when the home page loads vs when the project page is rendered by the header is creating the issue.
+
+
 const ProjContainer = ({ myInfo }) => {
   const showProjects = () => {
-    return myInfo.myInfo.projects.map((project) => {
+    return myInfo.projects.map((project) => {
       return (
         <ProjCard
           name={project.name}
