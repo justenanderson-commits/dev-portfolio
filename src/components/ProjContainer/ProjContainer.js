@@ -2,7 +2,7 @@ import ProjCard from '../ProjCard/ProjCard'
 
 const ProjContainer = ({ myInfo }) => {
   const showProjects = () => {
-    return myInfo.projects.map((project) => {
+    return myInfo.myInfo.projects.map((project) => {
       return (
         <ProjCard
           name={project.name}
