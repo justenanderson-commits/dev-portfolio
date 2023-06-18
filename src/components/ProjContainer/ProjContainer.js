@@ -1,11 +1,9 @@
-import ProjCard from '../ProjCard/ProjCard'
-
-const ProjContainer = ({ myInfo, showProjects }) => {
+const ProjContainer = ({ showProjects }) => {
   
   return (
     <div className="grid grid-cols-3 gap-12 border-white">
-      {/* {showProjects()} */}
       Test
+      { showProjects }
       </div>
   )
 }

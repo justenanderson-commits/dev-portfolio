@@ -6,15 +6,15 @@ import Projects from '../Projects/Projects'
 // The current problem is that the showProjects function needs to live on the App component and be passed down to the project container component and the header component so that it can fire on-click. The data is already getting to the header. The function just needs to be moved.
 
 
-const Header = ({ myInfo, showProjects }) => {
-  console.log('MyInfo from header: ', myInfo.projects)
-  const [openNav, setOpenNav] = React.useState(false)
-  React.useEffect(() => {
-    window.addEventListener(
-      'resize',
-      () => window.innerWidth >= 960 && setOpenNav(false)
-    )
-  }, [])
+const Header = ({ showProjects }) => {
+  // console.log('MyInfo from header: ', projects)
+  // const [openNav, setOpenNav] = React.useState(false)
+  // React.useEffect(() => {
+  //   window.addEventListener(
+  //     'resize',
+  //     () => window.innerWidth >= 960 && setOpenNav(false)
+  //   )
+  // }, [])
 
   const navList = (
     <ul className="mb-0 mt-0 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
