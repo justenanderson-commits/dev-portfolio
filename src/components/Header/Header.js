@@ -1,9 +1,9 @@
 import React from 'react'
 import { Button, Navbar, Typography } from '@material-tailwind/react'
-// import Projects from '../Projects/Projects'
+import Projects from '../Projects/Projects'
 
-const Header = ({ showProjects, projects }) => {
-  // console.log('MyInfo from header: ', projects)
+const Header = ({ showProjects }) => {
+  console.log('showProjects from header: ', showProjects)
   const [openNav, setOpenNav] = React.useState(false)
   React.useEffect(() => {
     window.addEventListener(
@@ -42,7 +42,6 @@ const Header = ({ showProjects, projects }) => {
         className="p-1 font-normal"
       >
         <a 
-        onClick={ () => showProjects() } 
         href="/projects" className="flex items-center text-xl">
           Projects
         </a>

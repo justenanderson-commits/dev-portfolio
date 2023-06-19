@@ -50,14 +50,12 @@ const App = () => {
     <div className="App">
       <Router>
         <Header
-          myInfo={data}
-
           showProjects={ showProjects }
         />
         <Routes>
           <Route path="/" element={<Main allInfo={ allInfo } showProjects={ showProjects }/>} />
           <Route path="/about" element={<About myInfo={data} />} />
-          <Route path="/projects" element={<Projects projects={ projects } showProjects={ showProjects() } />} />
+          <Route path="/projects" element={<Projects projects={ projects } showProjects={ showProjects } />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </Router>
