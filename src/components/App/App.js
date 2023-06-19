@@ -13,13 +13,11 @@ import ProjCard from '../ProjCard/ProjCard'
 const App = () => {
   const [allInfo, setAllInfo] = useState({})
   const [projects, setProjects] = useState([])
-  const [homeSummary, setHomeSummary] = useState('')
   const [about, setAbout] = useState('')
 
   useEffect(() => {
     setAllInfo(data)
     setProjects(data.projects)
-    setHomeSummary(data.homeSummary)
     setAbout(data.about)
   }, [])
 
@@ -47,7 +45,7 @@ const App = () => {
             path="/"
             element={<Main allInfo={allInfo} showProjects={showProjects} />}
           />
-          <Route path="/about" element={<About about={ about } />} />
+          <Route path="/about" element={<About about={about} />} />
           <Route
             path="/projects"
             element={
