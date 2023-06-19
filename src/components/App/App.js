@@ -12,13 +12,24 @@ import ProjCard from '../ProjCard/ProjCard'
 
 const App = () => {
   const [projects, setProjects] = useState([])
+  const [homeSummary, setHomeSummary] = useState([])
 
   useEffect(() => {
     setProjects(data.projects)
-    console.log('Projects from app: ', projects)
+    setHomeSummary(data.homeSummary)
   }, [])
+  
+
+  // This can be deleted
+  useEffect(() => {
+    console.log('Projects updated: ', projects);
+    console.log('Home Summary updated: ', homeSummary);
+  }, [projects]);
+  //
+  
 
   const showProjects = () => {
+    console.log('Projects from app: ', projects)
     return projects.map((project) => {
       return (
         <ProjCard
@@ -42,7 +53,7 @@ const App = () => {
           showProjects={ showProjects }
         />
         <Routes>
-          <Route path="/" element={<Main myInfo={data} />} />
+          <Route path="/" element={<Main homeSummary={ homeSummary } myInfo={data} />} />
           <Route path="/about" element={<About myInfo={data} />} />
           <Route path="/projects" element={<Projects showProjects={ showProjects } />} />
           <Route path="/contact" element={<Contact />} />
