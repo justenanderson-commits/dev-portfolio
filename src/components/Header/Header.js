@@ -3,7 +3,7 @@ import { Button, Navbar, Typography } from '@material-tailwind/react'
 // import Projects from '../Projects/Projects'
 
 const Header = ({ showProjects, projects }) => {
-  console.log('MyInfo from header: ', projects)
+  // console.log('MyInfo from header: ', projects)
   const [openNav, setOpenNav] = React.useState(false)
   React.useEffect(() => {
     window.addEventListener(

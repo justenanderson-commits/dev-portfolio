@@ -11,20 +11,23 @@ import { useState, useEffect } from 'react'
 import ProjCard from '../ProjCard/ProjCard'
 
 const App = () => {
+  const [allInfo, setAllInfo] = useState({})
   const [projects, setProjects] = useState([])
   const [homeSummary, setHomeSummary] = useState([])
 
   useEffect(() => {
+    setAllInfo(data)
     setProjects(data.projects)
     setHomeSummary(data.homeSummary)
   }, [])
   
 
   // This can be deleted
-  // useEffect(() => {
-  //   console.log('Projects updated: ', projects);
-  //   console.log('Home Summary updated: ', homeSummary);
-  // }, [projects]);
+  useEffect(() => {
+    // console.log('All Info updated: ', data);
+    // console.log('Projects updated: ', projects);
+    // console.log('Home Summary updated: ', homeSummary);
+  }, [projects]);
   //
   
 
@@ -52,9 +55,9 @@ const App = () => {
           showProjects={ showProjects }
         />
         <Routes>
-          <Route path="/" element={<Main homeSummary={ homeSummary } />} />
+          <Route path="/" element={<Main allInfo={ allInfo } showProjects={ showProjects }/>} />
           <Route path="/about" element={<About myInfo={data} />} />
-          <Route path="/projects" element={<Projects showProjects={ showProjects } />} />
+          <Route path="/projects" element={<Projects projects={ projects } showProjects={ showProjects() } />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </Router>
