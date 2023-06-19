@@ -1,6 +1,6 @@
 import { Button } from '@material-tailwind/react'
 
-const Home = ({ myInfo }) => {
+const Home = ({ homeSummary }) => {
   const handleLearnMore = () => {
     const element = document.querySelector('.about')
     window.scrollTo({
@@ -18,7 +18,7 @@ const Home = ({ myInfo }) => {
       <h1 className="text-7xl text-center pb-5">Justen Anderson</h1>
       <h2 className="text-4xl text-center text-sky-300">Software Developer</h2>
       <p className="text-slate-300 pt-5 px-32 text-left">
-        {myInfo.homeSummary}
+        {homeSummary}
       </p>
       <div className="mt-24 ">
         <Button

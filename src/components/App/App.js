@@ -21,15 +21,14 @@ const App = () => {
   
 
   // This can be deleted
-  useEffect(() => {
-    console.log('Projects updated: ', projects);
-    console.log('Home Summary updated: ', homeSummary);
-  }, [projects]);
+  // useEffect(() => {
+  //   console.log('Projects updated: ', projects);
+  //   console.log('Home Summary updated: ', homeSummary);
+  // }, [projects]);
   //
   
 
   const showProjects = () => {
-    console.log('Projects from app: ', projects)
     return projects.map((project) => {
       return (
         <ProjCard
@@ -53,7 +52,7 @@ const App = () => {
           showProjects={ showProjects }
         />
         <Routes>
-          <Route path="/" element={<Main homeSummary={ homeSummary } myInfo={data} />} />
+          <Route path="/" element={<Main homeSummary={ homeSummary } />} />
           <Route path="/about" element={<About myInfo={data} />} />
           <Route path="/projects" element={<Projects showProjects={ showProjects } />} />
           <Route path="/contact" element={<Contact />} />

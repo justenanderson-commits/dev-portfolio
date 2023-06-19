@@ -4,9 +4,9 @@ import Contact from '../Contact/Contact'
 import Projects from '../Projects/Projects'
 
 
-const Main = ( myInfo ) => {
+const Main = ({ myInfo, homeSummary }) => {
   return <div className='main relative'>
-    <Home myInfo={ myInfo } />
+    <Home homeSummary={ homeSummary } />
     <About  myInfo={ myInfo } />
     <Projects myInfo={ myInfo }  />
     <Contact />
