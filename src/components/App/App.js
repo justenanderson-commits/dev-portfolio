@@ -20,16 +20,6 @@ const App = () => {
     setProjects(data.projects)
     setHomeSummary(data.homeSummary)
   }, [])
-  
-
-  // This can be deleted
-  useEffect(() => {
-    // console.log('All Info updated: ', data);
-    // console.log('Projects updated: ', projects);
-    // console.log('Home Summary updated: ', homeSummary);
-  }, [projects]);
-  //
-  
 
   const showProjects = () => {
     return projects.map((project) => {
@@ -49,13 +39,19 @@ const App = () => {
   return (
     <div className="App">
       <Router>
-        <Header
-          showProjects={ showProjects }
-        />
+        <Header showProjects={showProjects} />
         <Routes>
-          <Route path="/" element={<Main allInfo={ allInfo } showProjects={ showProjects }/>} />
+          <Route
+            path="/"
+            element={<Main allInfo={allInfo} showProjects={showProjects} />}
+          />
           <Route path="/about" element={<About myInfo={data} />} />
-          <Route path="/projects" element={<Projects projects={ projects } showProjects={ showProjects } />} />
+          <Route
+            path="/projects"
+            element={
+              <Projects projects={projects} showProjects={showProjects} />
+            }
+          />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </Router>
