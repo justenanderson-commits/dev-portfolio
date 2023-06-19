@@ -13,10 +13,10 @@ import ProjCard from '../ProjCard/ProjCard'
 const App = () => {
   const [projects, setProjects] = useState([])
 
-  useEffect = () => {
+  useEffect(() => {
     setProjects(data.projects)
     console.log('Projects from app: ', projects)
-  }
+  }, [])
 
   const showProjects = () => {
     return projects.map((project) => {
@@ -39,7 +39,7 @@ const App = () => {
         <Header
           myInfo={data}
 
-          // showProjects={ showProjects }
+          showProjects={ showProjects }
         />
         <Routes>
           <Route path="/" element={<Main myInfo={data} />} />
