@@ -2,13 +2,13 @@ import Home from '../Home/Home'
 import About from '../About/About'
 import Contact from '../Contact/Contact'
 import Projects from '../Projects/Projects'
-import { Outlet } from 'react-router-dom'
 
-const Main = () => {
+
+const Main = ({ allInfo, showProjects }) => {
   return <div className='main relative'>
-    <Home />
-    <About  />
-    <Projects />
+    <Home homeSummary={ allInfo.homeSummary } />
+    <About  about={ allInfo.about } />
+    <Projects projects={ allInfo.projects } showProjects={ showProjects } />
     <Contact />
   </div>
 }

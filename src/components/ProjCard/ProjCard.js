@@ -1,15 +1,12 @@
-import menuify_sm from '../../assets/menuify_300x500.png'
-
-const ProjCard = () => {
+const ProjCard = ({ name, description, image, url }) => {
   return (
-    <div className="max-w-lg border-white border-2 rounded-xl mx-auto my-10">
-      <h2 className="text-1xl text-center text-sky-300 pt-2">Menuify</h2>
-      <p className="text-slate-300 py-5 px-5 text-left">
-        Menu application for restaurant owners to create beautiful, intuitive
-        menus.
-      </p>
-      <img src={ menuify_sm } className='w-full object-fit' />
-    </div>
+    <a href={url} target="blank">
+      <div className="max-w-lg border-white border-2 rounded-xl mx-auto my-10 bg-sky-900">
+        <h2 className="text-3xl text-center text-sky-100 pt-2">{name}</h2>
+        <p className="text-slate-200 py-5 px-5 text-left">{description}</p>
+        <img src={image} className="w-full object-fit" />
+      </div>
+    </a>
   )
 }
 
