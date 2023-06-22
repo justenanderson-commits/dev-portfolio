@@ -6,7 +6,7 @@ import {
   AccordionBody,
 } from "@material-tailwind/react";
 
-const Experience = () => {
+const Experience = ({ experience }) => {
   const [open, setOpen] = useState(0);
  
   const handleOpen = (value) => {
@@ -19,14 +19,14 @@ const Experience = () => {
   }
   return (
     <div className="border-2 border-slate-900 mx-36 my-4 rounded-lg">
-      <ExpCard />
-
-      <Fragment>
+       <Fragment>
         <Accordion open={open === 1}>
           <AccordionHeader className='p-4 bg-sky-100' onClick={() => handleOpen(1)}>
             Experience
           </AccordionHeader>
           <AccordionBody className='p-4'>
+          <ExpCard />
+
             Freelance and Volunteer Web Developer
           </AccordionBody>
         </Accordion>

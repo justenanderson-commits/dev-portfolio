@@ -6,7 +6,7 @@ const data = {
   homeSummary:
     'Passionate learner and hard worker with a strong record of success in the military, education, and private industry. I value honesty, deep connections, and achievement. I love collaborating, mentoring, and learning from others. Pair-programming is preferred. Complex technical challenges excite me, and I work to purposefully improve products, processes, and the lives of other people.',
   about:
-    'I am a hard-working, team-player with success in the military, education, and private industry. Collaborating, mentoring, and learning from others drive my achievements. Honesty, deep connections, and achievement matter to me. I am a passionate learner, always seeking new skills and experiences. I eagerly research and practice to develop new skills. I thrive on complex challenges and take pride in overcoming obstacles. Excellence, integrity, and service guide me. My purpose is to enhance lives through improved products and processes. ',
+    'A hard-working, team-player with success in the military, education, and private industry. Collaborating, mentoring, and learning from others drive my achievements. Honesty, deep connections, and achievement matter to me. I am a passionate learner, always seeking new skills and experiences. I eagerly research and practice to develop new skills. I thrive on complex challenges and take pride in overcoming obstacles. Excellence, integrity, and service guide me. My purpose is to enhance lives through improved products and processes. ',
   education: [
     {
       school: 'Turing School of Software and Design',
