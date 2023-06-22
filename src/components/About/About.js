@@ -1,6 +1,7 @@
 import Education from '../Education/Education'
 import Experience from '../Experience/Experience'
 import CertsAwards from '../CertsAwards/CertsAwards'
+import { Button } from '@material-tailwind/react'
 
 const About = ({ about, experience }) => {
   return (
@@ -11,6 +12,11 @@ const About = ({ about, experience }) => {
       <Education />
       <Experience experience={ experience } />
       <CertsAwards />
+       <div className="mx-auto flex justify-center">
+          <Button className="text-sky-600 border-sky-600 bg-white" variant="outlined">
+            Full Resume
+          </Button>
+        </div>
     </div>
   )
 }
