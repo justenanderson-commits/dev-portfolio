@@ -21,7 +21,7 @@ const Experience = ({ experience }) => {
     <div className="border-2 border-slate-900 mx-36 my-4 rounded-lg">
        <Fragment>
         <Accordion open={open === 1}>
-          <AccordionHeader className='p-4 bg-sky-100' onClick={() => handleOpen(1)}>
+          <AccordionHeader className='p-2 bg-sky-100' onClick={() => handleOpen(1)}>
             Experience
           </AccordionHeader>
           <AccordionBody className='p-4'>
