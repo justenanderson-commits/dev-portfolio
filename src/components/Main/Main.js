@@ -7,7 +7,7 @@ import Projects from '../Projects/Projects'
 const Main = ({ allInfo, showProjects }) => {
   return <div className='main relative'>
     <Home homeSummary={ allInfo.homeSummary } />
-    <About  about={ allInfo.about } />
+    <About  about={ allInfo.about } experience={ allInfo.experience }/>
     <Projects projects={ allInfo.projects } showProjects={ showProjects } />
     <Contact />
   </div>
