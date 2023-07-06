@@ -29,7 +29,7 @@ const data = {
       startDate: 'August 2004',
       endDate: 'June 2005',
       program:
-        'Bachelor of Science in Business Adminstration of Technical Studies',
+        'Bachelor of Science in Business Adminstration in Technical Studies',
     },
     {
       school: 'Community College of the Air Force',
