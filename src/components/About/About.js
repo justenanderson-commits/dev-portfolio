@@ -13,9 +13,14 @@ const About = ({ about, experience }) => {
       <Experience experience={ experience } />
       <CertsAwards />
        <div className="mx-auto flex justify-center">
+          <a
+          href='https://docs.google.com/document/d/1zc4RyV_xqZarW5EjT7jbxJ0ud1fO1sfL3iI6zLXDuGk/edit?usp=sharing'
+          target='blank'
+          >
           <Button className="text-sky-600 mt-4 border-sky-600 bg-white" variant="outlined">
             Resume
           </Button>
+          </a>
         </div>
     </div>
   )
