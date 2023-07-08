@@ -6,7 +6,7 @@ import { BsLinkedin } from 'react-icons/bs'
 
 const Contact = () => {
   return (
-    <div className="text-slate-900 text-2xl w-full min-h-screen bg-white pt-10">
+    <div className="text-slate-900 text-2xl w-full h-9/10 bg-white pt-10">
       <h1 className="text-7xl text-center pb-3">Contact</h1>
       <h2 className="text-2xl flex justify-center mt-4">I'd love to hear from you. Use any of the links below to get in touch:</h2>
       <div className="bg-sky-100 mx-auto mt-8 border-slate-900 p-10 border-2 min-h-2/3 w-2/3 rounded-xl flex justify-evenly text-8xl">
@@ -39,6 +39,16 @@ const Contact = () => {
           </Button>
         </div> */}
       </div>
+      <div className="flex justify-center mt-8">
+      <a
+          href='https://docs.google.com/document/d/1zc4RyV_xqZarW5EjT7jbxJ0ud1fO1sfL3iI6zLXDuGk/edit?usp=sharing'
+          target='blank'
+          >
+          <Button className="text-sky-600 border-sky-600 bg-white" variant="outlined">
+            Home
+          </Button>
+          </a>
+          </div>
     </div>
   )
 }
