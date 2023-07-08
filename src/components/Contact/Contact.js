@@ -11,7 +11,7 @@ const Contact = () => {
       <h2 className="text-2xl flex justify-center mt-4">I'd love to hear from you. Use any of the links below to get in touch:</h2>
       
       
-      <div className="bg-sky-100 mx-auto mt-8 border-slate-900 p-10 border-2 min-h-2/3 w-2/3 rounded-xl flex justify-evenly text-8xl text-slate-700">
+      <div className="bg-sky-100 mx-auto mt-8 border-slate-900 p-10 border-2 min-h-2/3 w-2/3 rounded-xl flex justify-evenly text-8xl text-sky-900">
         <a href="https://github.com/justenanderson-commits"
         target="blank"> 
         <h1><BsGithub /> </h1>
