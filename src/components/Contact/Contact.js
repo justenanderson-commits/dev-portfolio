@@ -8,10 +8,19 @@ const Contact = () => {
   return (
     <div className="text-slate-900 text-2xl w-full min-h-screen bg-white pt-10">
       <h1 className="text-7xl text-center pb-3">Contact</h1>
-      <div className="bg-sky-100 mx-auto mt-8 border-slate-900 p-10 border-2 min-h-2/3 w-2/3 rounded-xl flex justify-evenly ">
+      
+      <div className="bg-sky-100 mx-auto mt-8 border-slate-900 p-10 border-2 min-h-2/3 w-2/3 rounded-xl flex justify-evenly text-8xl">
+        <a href="https://github.com/justenanderson-commits"
+        target="blank"> 
         <h1><BsGithub /> </h1>
+        </a>
+        <a href="mailto:justenanderson@gmail.com">
         <h1><ImMail /> </h1>
+        </a>
+        <a href="https://www.linkedin.com/in/justen-anderson-522062239/"
+        target="blank">
         <h1><BsLinkedin /> </h1>
+        </a>
         {/* <form className="w-9/10">
           <label>Name</label>
           <Input size="lg" placeholder="John Smith" className='mb-2 bg-white' />
