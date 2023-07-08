@@ -9,7 +9,9 @@ const Contact = () => {
     <div className="text-slate-900 text-2xl w-full min-h-9/10 bg-white pt-10">
       <h1 className="text-7xl text-center pb-3">Contact</h1>
       <h2 className="text-2xl flex justify-center mt-4">I'd love to hear from you. Use any of the links below to get in touch:</h2>
-      <div className="bg-sky-100 mx-auto mt-8 border-slate-900 p-10 border-2 min-h-2/3 w-2/3 rounded-xl flex justify-evenly text-8xl">
+      
+      
+      <div className="bg-sky-100 mx-auto mt-8 border-slate-900 p-10 border-2 min-h-2/3 w-2/3 rounded-xl flex justify-evenly text-8xl text-slate-700">
         <a href="https://github.com/justenanderson-commits"
         target="blank"> 
         <h1><BsGithub /> </h1>
