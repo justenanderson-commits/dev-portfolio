@@ -41,11 +41,9 @@ const Contact = () => {
           </Button>
         </div> */}
       </div>
-      <div className="flex justify-center mb-8 mt-40">
+      <div className="flex justify-center mb-16 mt-32">
       <a
-          href='/'
-          target='blank'
-          >
+          href='/' >
           <Button className="text-sky-600 border-sky-600 bg-white" variant="outlined">
             Home
           </Button>
