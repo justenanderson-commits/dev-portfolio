@@ -36,9 +36,7 @@ const Experience = ({ experience }) => {
               Front-End Engineering Student - August 2022 to March 2023
             </h2>
             <p className="text-lg">
-              An intense, fully-remote front-end web development boot camp
-              including HTML, CSS, JavaScript, React, Node, Git, GitHub, and
-              more.
+            Excelled in an accredited, intense, 60-70 hr/wk, fully-remote, 1,700-hour software development training program through its collaborative, high-paced, curriculum to sharpen web development skills including pair-programming, algorithms, debugging, HTML, CSS, JavaScript, React, Node, Git, GitHub, and more.
             </p>
             <br />
             <h1 className="text-xl font-bold">
