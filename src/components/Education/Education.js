@@ -31,7 +31,7 @@ const Education = () => {
           </AccordionHeader>
           <AccordionBody className="p-4">
             <h1 className="text-xl font-bold">
-              Turing School of Software and Design
+              Turing School of Software and Design - Denver, Colorado
             </h1>
             <h2 className="text-lg font-semibold">
               Front-End Engineering Program - March 2023
@@ -42,7 +42,7 @@ const Education = () => {
               more.
             </p>
             <br />
-            <h1 className="text-xl font-bold">Bellevue University</h1>
+            <h1 className="text-xl font-bold">Bellevue University - Bellevue, Nebraska</h1>
             <h2 className="text-lg font-semibold">
               Master of Business Administration - June 2012
             </h2>
@@ -61,7 +61,7 @@ const Education = () => {
             </p>
             <br />
             <h1 className="text-xl font-bold">
-              Community College of the Air Force
+              Community College of the Air Force - Maxwell Air Force Base, Alabama
             </h1>
             <label className="text-lg font-semibold">
               Associate of Applied Science - March 2005

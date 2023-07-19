@@ -7,7 +7,6 @@ import {
 } from '@material-tailwind/react'
 
 const Experience = ({ experience }) => {
-  console.log('Experience: ', experience)
   const [open, setOpen] = useState(0)
 
   const handleOpen = (value) => {
@@ -57,7 +56,7 @@ const Experience = ({ experience }) => {
             <h2 className="text-lg font-semibold">
               Auto and Home Insurance Agent - April 2006 to July 2008
             </h2>
-            <p className="text-lg">Insurance synopsis</p>
+            <p className="text-lg">Provided front-line customer service, coverage counseling, and wrote new home and auto insurance policies in 27 different states; employed real-time, database applications and interfaced with other departments (underwriting, claims, business partners, etc) to assess risk and provide personalized coverage solutions.</p>
             <br />
             <h1 className="text-xl font-bold">United States Air Force</h1>
             <h2 className="text-lg font-semibold">
