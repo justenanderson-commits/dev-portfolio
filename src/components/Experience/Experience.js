@@ -56,16 +56,16 @@ const Experience = ({ experience }) => {
             <h1 className="text-xl font-bold">
               California Casualty Insurance Company
             </h1>
-            <label className="text-lg font-semibold">
+            <h2 className="text-lg font-semibold">
               Auto and Home Insurance Agent - April 2006 to July 2008
-            </label>
+            </h2>
             <p className="text-lg">Insurance synopsis</p>
             <br />
             <h1 className="text-xl font-bold">United States Air Force</h1>
-            <label className="text-lg font-semibold">
+            <h2 className="text-lg font-semibold">
               Avionics and Automated Test Station Technician - October 2001 to
               April 2006
-            </label>
+            </h2>
             <p className="text-lg">USAF synopsis</p>
           </AccordionBody>
         </Accordion>
