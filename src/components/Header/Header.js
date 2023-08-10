@@ -1,7 +1,7 @@
 import React from 'react'
-import { Button, Navbar, Typography } from '@material-tailwind/react'
+import { Navbar, Typography, MobileNav } from '@material-tailwind/react'
 
-const Header = ({ showProjects }) => {
+const Header = () => {
   const [openNav, setOpenNav] = React.useState(false)
   React.useEffect(() => {
     window.addEventListener(
@@ -64,13 +64,14 @@ const Header = ({ showProjects }) => {
             href="https://github.com/justenanderson-commits/dev-portfolio/tree/main"
             target="blank"
           >
-            <Button
-              // as="a"
-              // href="https://github.com/justenanderson-commits/dev-portfolio/tree/main"
-              className="ml-2 font-bold text-sky-500 cursor-pointer text-md"
+            <Typography
+            as="a"
+            href="https://github.com/justenanderson-commits/dev-portfolio/tree/main"
+            target="blank"
+            className="ml-2 font-bold text-sky-500 cursor-pointer text-md"
             >
-              Repo
-            </Button>
+            Repo
+            </Typography>
           </a>
         </div>
         <div className="flex items-center gap-4">
