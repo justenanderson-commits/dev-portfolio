@@ -55,7 +55,7 @@ const Experience = ({ experience }) => {
               high-profile video projects within tight timelines. Provided
               extensive technical support to colleagues with technical issues.
             </p>
-
+            <br/>
             <h2 className="text-lg font-semibold">
               Department Lead - August 2016 to July 2022
             </h2>
@@ -67,11 +67,12 @@ const Experience = ({ experience }) => {
               eLearning training materials to facilitate an effective transition to online
               instruction during Covid-19.
             </p>
+            <br/>
             <h2 className="text-lg font-semibold">
               Career Technical Education Lead - August 2015 to July 2021
             </h2>
             <p className="text-lg">
-              Interfaced with district leadership, community members, and , receiving grants for
+              Interfaced with district leadership, community members, and representatives from other schools to coordinate multi-million dollar program, receiving grants for
               tens-of-thousands of additional dollars for the school and the
               district.
             </p>
@@ -91,13 +92,13 @@ const Experience = ({ experience }) => {
             </p>
             <br />
             <h1 className="text-xl font-bold">
-              United States Air Force - October 2001 to April 2006
+              United States Air Force - Offutt AFB, NE & Holloman AFB, NM
             </h1>
             <h2 className="text-lg font-semibold">
               Avionics and Automated Test Station Technician - October 2001 to
               April 2006
             </h2>
-            <p className="text-lg">USAF synopsis</p>
+            <p className="text-lg">Performed component-level electronics testing, troubleshooting, maintenance and calibration of aircraft communication, navigation, and flight control systems. Managed the shop's hazardous materials compliance program. </p>
           </AccordionBody>
         </Accordion>
       </Fragment>
