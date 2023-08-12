@@ -1,14 +1,14 @@
 import React from 'react'
 import './App.css'
-import Header from '../Header/Header'
+import Header from '../Header'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Main from '../Main/Main'
-import About from '../About/About'
-import Projects from '../Projects/Projects'
-import Contact from '../Contact/Contact'
+import Main from '../Main'
+import About from '../About'
+import Projects from '../Projects'
+import Contact from '../Contact'
 import data from '../../api/dummy_data'
 import { useState, useEffect } from 'react'
-import ProjCard from '../ProjCard/ProjCard'
+import ProjCard from '../ProjCard'
 
 const App = () => {
   const [allInfo, setAllInfo] = useState({})
@@ -49,12 +49,6 @@ const App = () => {
 
     })
   }
-  // Each component ideally only gets what it needs
-  // Balance that rule with readability, show dev empathy
-  // Load onClick? Or load all as we go?
-  // Only load data when you need it - slower but fewer API calls
-  // Twilio microservice for the email contact form?
-  // Yes to MicroModal
 
   return (
     <div className="App">

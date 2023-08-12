@@ -1,5 +1,5 @@
 import { Fragment, useState } from 'react'
-import EduCard from '../EduCard/EduCard'
+import EduCard from './EduCard'
 import {
   Accordion,
   AccordionHeader,
@@ -18,7 +18,7 @@ const Education = () => {
     unmount: { scale: 0.9 },
   }
   return (
-    <div className="border-2 border-slate-900 mx-36 my-4 rounded-lg">
+    <div className="border-2 border-slate-900 mx-8 lg:mx-36 my-4 rounded-lg">
       <EduCard />
 
       <Fragment>

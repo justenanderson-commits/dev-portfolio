@@ -1,6 +1,6 @@
 const ProjContainer = ({ showProjects }) => {
   return (
-    <div className="grid grid-cols-3 gap-12 border-white">{showProjects()}</div>
+    <div className="lg:grid lg:grid-cols-3 lg:gap-12 border-white">{showProjects()}</div>
   )
 }
 
