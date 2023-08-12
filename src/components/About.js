@@ -1,6 +1,6 @@
-import Education from '../Education/Education'
-import Experience from '../Experience/Experience'
-import CertsAwards from '../CertsAwards/CertsAwards'
+import Education from './Education/Education'
+import Experience from './Experience/Experience'
+import CertsAwards from './CertsAwards/CertsAwards'
 import { Button } from '@material-tailwind/react'
 
 const About = ({ about, experience }) => {
