@@ -1,4 +1,4 @@
-import ProjContainer from '../ProjContainer/ProjContainer'
+import ProjContainer from './ProjContainer/ProjContainer'
 
 const Projects = ({ projects, showProjects }) => {
   return (
