@@ -3,7 +3,7 @@ import { GiHamburgerMenu } from 'react-icons/gi'
 import {
   Navbar,
   Typography,
-  IconButton,
+  Button,
   Collapse,
   Card,
   CardBody,
@@ -70,15 +70,13 @@ const Header = () => {
         </Typography>
         <div className="flex items-center gap-4">
           <div className="mr-4 hidden lg:block">{navList}</div>
-
-          <IconButton
-            className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
+          <Button
+            className="h-6 w-6 active:bg-transparent lg:hidden"
             ripple={true}
             onClick={toggleOpen}
           >
-            {' '}
-            <GiHamburgerMenu className="text-2xl"/>
-          </IconButton>
+            <GiHamburgerMenu  className="text-2xl -m-3"/>
+          </Button>
         </div>
       </div>
       <Collapse open={open}>
