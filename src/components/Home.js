@@ -23,7 +23,7 @@ const Home = ({ homeSummary }) => {
       <div className="mt-24 ">
         <Button
           onClick={handleLearnMore}
-          className="mb-36 text-sky-300 border-sky-400"
+          className="hidden lg:block mb-36 text-sky-300 border-sky-400"
           variant="outlined"
         >
           Learn More
