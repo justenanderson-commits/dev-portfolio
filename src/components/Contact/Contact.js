@@ -1,4 +1,4 @@
-import { Input, Typography, Button, Textarea } from '@material-tailwind/react'
+import { Button } from '@material-tailwind/react'
 import { BsGithub } from 'react-icons/bs'
 import { ImMail } from 'react-icons/im'
 import { BsLinkedin } from 'react-icons/bs'
