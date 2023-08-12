@@ -14,7 +14,7 @@ const Header = () => {
   const toggleOpen = () => setOpen((cur) => !cur)
 
   const navList = (
-    <ul className="mb-0 mt-0 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
+    <ul className="flex flex-col lg:flex-row items-center lg:gap-6">
       <Typography
         as="li"
         variant="small"
