@@ -1,4 +1,4 @@
-import Education from './Education/Education'
+import Education from './Education'
 import Experience from './Experience/Experience'
 import CertsAwards from './CertsAwards/CertsAwards'
 import { Button } from '@material-tailwind/react'
@@ -7,7 +7,7 @@ const About = ({ about, experience }) => {
   return (
     <div className="relative about text-slate-900 text-2xl w-full h-9/10 bg-white mb-6">
       <h1 className="about-title text-7xl text-center pb-2 mt-8">About</h1>
-      <div className="mx-36 mt-8">
+      <div className="mx-12 lg:mx-36 mt-8">
         { about } </div>
       <Education />
       <Experience experience={ experience } />

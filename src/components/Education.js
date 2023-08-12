@@ -1,5 +1,5 @@
 import { Fragment, useState } from 'react'
-import EduCard from '../EduCard/EduCard'
+import EduCard from './EduCard/EduCard'
 import {
   Accordion,
   AccordionHeader,
