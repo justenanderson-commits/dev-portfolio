@@ -58,7 +58,7 @@ const Header = () => {
     </ul>
   )
   return (
-    <Navbar className="sticky inset-0 z-10 h-max max-w-full rounded-none py-0 px-0 lg:px-8 lg:py-4 bg-slate-900">
+    <Navbar className="sticky inset-0 z-10 h-max max-w-full rounded-none py-0 px-0 px-8 py-4 bg-slate-900">
       <div className="flex items-center justify-between text-blue-gray-900">
         <Typography
           as="a"
@@ -77,7 +77,7 @@ const Header = () => {
             onClick={toggleOpen}
           >
             {' '}
-            <GiHamburgerMenu />
+            <GiHamburgerMenu className="text-2xl"/>
           </IconButton>
         </div>
       </div>
