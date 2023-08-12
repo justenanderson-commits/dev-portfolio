@@ -5,7 +5,6 @@ import {
   IconButton, 
   Collapse,
   Card,
-  Button,
   CardBody
 } from '@material-tailwind/react'
 
@@ -80,11 +79,18 @@ const Header = () => {
               </Typography>
           <div className="flex items-center gap-4">
             <div className="mr-4 hidden lg:block">{navList}</div>
-            {/* <IconButton
+            
+          </div>
+        </div>
+        {/* <MobileNav open={openNav}>
+          {navList}
+        </MobileNav> */}
+      {/* <Button onClick={toggleOpen}>Open Collapse</Button> */}
+      <IconButton
               variant="text"
               className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
               ripple={true}
-              onClick={() => setOpenNav(!openNav)}
+              onClick={toggleOpen}
             >
               {openNav ? (
                 <svg
@@ -116,15 +122,7 @@ const Header = () => {
                   />
                 </svg>
               )}
-            </IconButton> */}
-          </div>
-        </div>
-        {/* <MobileNav open={openNav}>
-          {navList}
-        </MobileNav> */}
-
-        <>
-      <Button onClick={toggleOpen}>Open Collapse</Button>
+            </IconButton>
       <Collapse open={open}>
         <Card className="my-4 mx-auto w-8/12">
           <CardBody>
@@ -134,7 +132,6 @@ const Header = () => {
           </CardBody>
         </Card>
       </Collapse>
-    </>
       </Navbar>
   )
 }
