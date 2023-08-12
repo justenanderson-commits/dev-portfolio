@@ -5,9 +5,9 @@ import { Button } from '@material-tailwind/react'
 
 const About = ({ about, experience }) => {
   return (
-    <div className="relative about text-slate-900 text-2xl w-full h-9/10 bg-white mb-6">
-      <h1 className="about-title text-7xl text-center pb-2 mt-8">About</h1>
-      <div className="mx-12 lg:mx-36 mt-8">
+    <div className="text-slate-900 text-2xl w-full min-h-9/10 bg-white mb-6">
+      <h1 className="text-5xl lg:text-7xl text-center pb-2 mt-8">About</h1>
+      <div className="mx-8 lg:mx-36 mt-2">
         { about } </div>
       <Education />
       <Experience experience={ experience } />

@@ -8,7 +8,7 @@ import Projects from '../Projects'
 import Contact from '../Contact'
 import data from '../../api/dummy_data'
 import { useState, useEffect } from 'react'
-import ProjCard from '../ProjCard/ProjCard'
+import ProjCard from '../ProjCard'
 
 const App = () => {
   const [allInfo, setAllInfo] = useState({})
