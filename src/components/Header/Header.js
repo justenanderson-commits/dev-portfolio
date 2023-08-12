@@ -1,28 +1,17 @@
-import React from 'react'
+import { useState } from 'react'
 import { GiHamburgerMenu } from 'react-icons/gi'
 import {
   Navbar,
   Typography,
-  IconButton, 
+  IconButton,
   Collapse,
   Card,
-  CardBody
+  CardBody,
 } from '@material-tailwind/react'
 
-
 const Header = () => {
-  const [open, setOpen] = React.useState(false);
- 
-  const toggleOpen = () => setOpen((cur) => !cur);
-
-  React.useEffect(() => {
-    window.addEventListener(
-      'resize',
-      () => window.innerWidth >= 960 && setOpen(false)
-    )
-  }, [])
-
-
+  const [open, setOpen] = useState(false)
+  const toggleOpen = () => setOpen((cur) => !cur)
 
   const navList = (
     <ul className="mb-0 mt-0 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
@@ -69,36 +58,37 @@ const Header = () => {
     </ul>
   )
   return (
-      <Navbar className="sticky inset-0 z-10 h-max max-w-full rounded-none py-0 px-0 lg:px-8 lg:py-4 bg-slate-900">
-        <div className="flex items-center justify-between text-blue-gray-900">
-              <Typography
-                as="a"
-                href="https://github.com/justenanderson-commits/dev-portfolio/tree/main" target="blank"
-                className="ml-2 font-bold text-sky-500 cursor-pointer text-md"
-              >
-                REPO
-              </Typography>
-          <div className="flex items-center gap-4">
-            <div className="mr-4 hidden lg:block">{navList}</div>
-            
-      <IconButton
-              className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
-              ripple={true}
-              onClick={toggleOpen}
-            > <GiHamburgerMenu />
-        </IconButton>
-          </div>
+    <Navbar className="sticky inset-0 z-10 h-max max-w-full rounded-none py-0 px-0 lg:px-8 lg:py-4 bg-slate-900">
+      <div className="flex items-center justify-between text-blue-gray-900">
+        <Typography
+          as="a"
+          href="https://github.com/justenanderson-commits/dev-portfolio/tree/main"
+          target="blank"
+          className="ml-2 font-bold text-sky-500 cursor-pointer text-md"
+        >
+          REPO
+        </Typography>
+        <div className="flex items-center gap-4">
+          <div className="mr-4 hidden lg:block">{navList}</div>
+
+          <IconButton
+            className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
+            ripple={true}
+            onClick={toggleOpen}
+          >
+            {' '}
+            <GiHamburgerMenu />
+          </IconButton>
         </div>
+      </div>
       <Collapse open={open}>
         <Card className="my-4 mx-auto w-9/12">
           <CardBody className="mx-auto">
-            <Typography>
-              {navList}
-            </Typography>
+            <Typography>{navList}</Typography>
           </CardBody>
         </Card>
       </Collapse>
-      </Navbar>
+    </Navbar>
   )
 }
 
