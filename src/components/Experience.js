@@ -1,5 +1,5 @@
 import { Fragment, useState } from 'react'
-import ExpCard from '../ExpCard/ExpCard'
+import ExpCard from './ExpCard'
 import {
   Accordion,
   AccordionHeader,

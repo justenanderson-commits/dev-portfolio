@@ -49,12 +49,6 @@ const App = () => {
 
     })
   }
-  // Each component ideally only gets what it needs
-  // Balance that rule with readability, show dev empathy
-  // Load onClick? Or load all as we go?
-  // Only load data when you need it - slower but fewer API calls
-  // Twilio microservice for the email contact form?
-  // Yes to MicroModal
 
   return (
     <div className="App">
