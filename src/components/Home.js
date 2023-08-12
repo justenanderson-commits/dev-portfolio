@@ -13,7 +13,7 @@ const Home = ({ homeSummary }) => {
   return (
     <div
       id="home-page"
-      className="relative home-page text-slate-100 text-2xl min-h-screen bg-slate-900 pt-6 lg:pt-20 flex flex-col items-center"
+      className="relative home-page text-slate-100 text-2xl min-h-screen bg-slate-900 pt-8 lg:pt-20 flex flex-col items-center"
     >
       <h1 className="text-5xl lg:text-7xl text-center pb-5">Justen Anderson</h1>
       <h2 className="text-3xl lg:text-4xl text-center text-sky-300">Software Developer</h2>
