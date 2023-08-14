@@ -14,7 +14,7 @@ const About = ({ about, experience }) => {
       <CertsAwards />
        <div className="mx-auto flex justify-center">
           <a
-          href='https://docs.google.com/document/d/1zc4RyV_xqZarW5EjT7jbxJ0ud1fO1sfL3iI6zLXDuGk/edit?usp=sharing'
+          href='https://drive.google.com/file/d/10I6nhXQ9SKyhzq6g4XqthLDQuaZGVl-_/view?usp=sharing'
           target='blank'
           >
           <Button className="text-sky-600 border-sky-600 bg-white" variant="outlined">
