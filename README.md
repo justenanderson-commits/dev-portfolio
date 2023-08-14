@@ -20,9 +20,14 @@ Welcome to my portfolio! I've used this project for learning, intentionally inco
 - Excalidraw
 - Tailwind 
 - Flowbite
-- 
+  
 
 ## Installation instructions
+1. Clone this repository
+2. `cd` into the directory and run `npm install`
+3. Run `npm start`
+4. Navigate to to your local server (listed in your terminal) in your web browser to view the live page
+
 
 ## Documentation
 ### Figma Wireframe
@@ -37,5 +42,3 @@ Welcome to my portfolio! I've used this project for learning, intentionally inco
 ### Component Tree
 <img width="787" alt="Screenshot 2023-05-16 at 8 40 02 AM" src="https://github.com/justenanderson-commits/dev-portfolio/assets/104015966/a71a1997-809c-4fcf-896d-7016be6f929e">
 
-
-### GitHub Project Board
