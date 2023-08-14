@@ -1,17 +1,11 @@
-# Work In Progress
-## Notes
-- Separate styling classes from layout classes
-- Install Tailwind, follow docs. Cmd + K to search docs. Install VS Code Intellisense for Tailwind.
-- Add dark mode and light mode options.
-- Go for the essence of the design, not pixel perfection.
-- Research DOM manipulation
-
 # Justen Anderson's Portfolio
-A professional web developer's portfolio site with their projects, professional, and educational history.
+Welcome to my portfolio's repo! I've used this project for learning, intentionally incorporating new technologies and experimenting for experimentation's sake. As such, there are surely mistakes and potential areas of improvement. Progress was the goal, not perfection. The site will continue to be updated based on feedback I receive and new ideas for improvement. Eventually, I'd like to build a backend to practice those skills as well. For now, I hope you enjoy it and invite any suggestions you're willing to offer!
 
  - [Front-end repo](https://github.com/justenanderson-commits/portfolio)
 
 ### GIFs
+![Portfolio desktop GIF](https://github.com/justenanderson-commits/dev-portfolio/assets/104015966/c2772a33-070a-46ab-a166-6ea68724d326)
+![Portfolio mobile GIF](https://github.com/justenanderson-commits/dev-portfolio/assets/104015966/9b0560f0-748a-4bcc-aca9-da4714e89c2f)
 
 
 ## Technologies
@@ -26,7 +20,7 @@ A professional web developer's portfolio site with their projects, professional,
 - Excalidraw
 - Tailwind 
 - Flowbite
-
+- 
 
 ## Installation instructions
 
@@ -38,7 +32,6 @@ A professional web developer's portfolio site with their projects, professional,
 <img width="356" alt="Screenshot 2023-05-15 at 12 34 05 PM" src="https://github.com/justenanderson-commits/dev-portfolio/assets/104015966/b06d3a0a-e5b5-4315-a9ab-a0e431b05fba">
 <img width="714" alt="Screenshot 2023-05-15 at 12 25 30 PM" src="https://github.com/justenanderson-commits/dev-portfolio/assets/104015966/3bf744ca-e771-4354-9afd-07c09d20def0">
 <img width="675" alt="Screenshot 2023-05-15 at 11 25 12 AM" src="https://github.com/justenanderson-commits/portfolio/assets/104015966/1adcefa0-48f5-4a1e-88fb-16cd5457f5ee">
-<img width="675" alt="Screenshot 2023-05-15 at 11 25 22 AM" src="https://github.com/justenanderson-commits/portfolio/assets/104015966/d527167b-f552-4a81-a08d-cd31e2c00ee3">
 
 
 ### Component Tree
