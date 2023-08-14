@@ -6,7 +6,7 @@ import { BsLinkedin } from 'react-icons/bs'
 
 const Contact = () => {
   return (
-    <div className="text-slate-900 text-2xl w-full min-h-9/10 bg-white pt-10">
+    <div className="text-slate-900 text-2xl w-full min-h-screen bg-white pt-10">
       <h1 className="text-5xl lg:text-7xl  text-center">Contact</h1>
       <h2 className="text-2xl flex justify-center p-6 lg:p-4 lg:mt-4">I'd love to hear from you. Use any of the links below to get in touch:</h2>
       
