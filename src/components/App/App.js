@@ -23,10 +23,6 @@ const App = () => {
     setExperience(data.experience)
   }, [])
 
-  useEffect(() => {
-    console.log('Updated exp from app: ', experience )
-  })
-
   const showProjects = () => {
     return projects.map((project) => {
       return (
