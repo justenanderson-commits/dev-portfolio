@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { GiHamburgerMenu } from 'react-icons/gi'
+import { BsGithub } from 'react-icons/bs'
 import {
   Navbar,
   Typography,
@@ -67,9 +68,9 @@ const Header = () => {
           as="a"
           href="https://github.com/justenanderson-commits/dev-portfolio/tree/main"
           target="blank"
-          className="ml-2 font-bold text-sky-500 cursor-pointer text-md"
+          className="ml-2 font-bold text-sky-500 cursor-pointer text-md flex items-center"
         >
-          REPO
+          <BsGithub className="mx-1"/> REPO
         </Typography>
         <div className="flex items-center gap-4">
           <div className="mr-4 hidden lg:block">{navList}</div>
