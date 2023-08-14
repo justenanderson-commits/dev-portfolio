@@ -1,5 +1,5 @@
 # Justen Anderson's Portfolio
-Welcome to my portfolio's repo! I've used this project for learning, intentionally incorporating new technologies and experimenting for experimentation's sake. As such, there are surely mistakes and potential areas of improvement. Progress was the goal, not perfection. The site will continue to be updated based on feedback I receive and new ideas for improvement. Eventually, I'd like to build a backend to practice those skills as well. For now, I hope you enjoy it and invite any suggestions you're willing to offer!
+Welcome to my portfolio! I've used this project for learning, intentionally incorporating new technologies and experimenting for experimentation's sake. As such, there are surely mistakes and potential areas of improvement. Progress was the goal, not perfection. The site will continue to be updated based on feedback I receive and new ideas for improvement. Eventually, I'd like to build a backend to practice those skills as well. For now, I hope you enjoy it and invite any suggestions you're willing to offer!
 
  - [Front-end repo](https://github.com/justenanderson-commits/portfolio)
 
