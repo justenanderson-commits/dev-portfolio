@@ -38,14 +38,6 @@ const App = () => {
     })
   }
 
-  const showExperience = () => {
-    return experience.map( exp => {
-      // WIP - At this point, I need to pass the showExperience function down the Experience component so that it will render inside of the Experience accordian. Currently the ExpCard is only rendering the placeholder text. But by passing down the function, I should be able to programmatically populate the Experience card.
-      return 
-
-    })
-  }
-
   return (
     <div className="App">
       <Router>
