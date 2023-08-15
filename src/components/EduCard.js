@@ -1,5 +1,5 @@
 const EduCard = () => {
-  return ( <div className="">EduCard Goes Here</div> );
+  return ( <div className=""></div> );
 }
  
 export default EduCard;

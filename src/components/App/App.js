@@ -66,7 +66,13 @@ const App = () => {
           />
           <Route
             path="/about"
-            element={<About about={about} experience={experience} />}
+            element={
+              <About
+                about={about}
+                experience={experience}
+                showEducation={showEducation}
+              />
+            }
           />
           <Route
             path="/projects"
