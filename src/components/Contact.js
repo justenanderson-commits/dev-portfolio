@@ -19,7 +19,7 @@ const Contact = () => {
         <a href="mailto:justenanderson@gmail.com">
         <h1><ImMail /> </h1>
         </a>
-        <a href="https://www.linkedin.com/in/justen-anderson-522062239/"
+        <a href="https://www.linkedin.com/in/justen-adds-value/"
         target="blank">
         <h1><BsLinkedin /> </h1>
         </a>
