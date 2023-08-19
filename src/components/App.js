@@ -1,15 +1,14 @@
 import React from 'react'
-import './App.css'
-import Header from '../Header'
+import Header from './Header'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Main from '../Main'
-import About from '../About'
-import Projects from '../Projects'
-import Contact from '../Contact'
-import data from '../../api/dummy_data'
+import Main from './Main'
+import About from './About'
+import Projects from './Projects'
+import Contact from './Contact'
+import data from '../api/dummy_data'
 import { useState, useEffect } from 'react'
-import ProjCard from '../ProjCard'
-import EduCard from '../EduCard'
+import ProjCard from './ProjCard'
+import EduCard from './EduCard'
 
 const App = () => {
   const [allInfo, setAllInfo] = useState({})
