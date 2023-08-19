@@ -1,25 +1,27 @@
 import React from 'react'
-import './App.css'
-import Header from '../Header'
+import Header from './Header'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Main from '../Main'
-import About from '../About'
-import Projects from '../Projects'
-import Contact from '../Contact'
-import data from '../../api/dummy_data'
+import Main from './Main'
+import About from './About'
+import Projects from './Projects'
+import Contact from './Contact'
+import data from '../api/dummy_data'
 import { useState, useEffect } from 'react'
-import ProjCard from '../ProjCard'
+import ProjCard from './ProjCard'
+import EduCard from './EduCard'
 
 const App = () => {
   const [allInfo, setAllInfo] = useState({})
   const [projects, setProjects] = useState([])
   const [about, setAbout] = useState('')
+  const [education, setEducation] = useState([])
   const [experience, setExperience] = useState([])
 
   useEffect(() => {
     setAllInfo(data)
     setProjects(data.projects)
     setAbout(data.about)
+    setEducation(data.education)
     setExperience(data.experience)
   }, [])
 
@@ -38,6 +40,20 @@ const App = () => {
     })
   }
 
+  const showEducation = () => {
+    return education.map((education) => {
+      return (
+        <EduCard
+          school={education.school}
+          location={education.location}
+          startDate={education.startDate}
+          endDate={education.endDate}
+          program={education.program}
+        />
+      )
+    })
+  }
+
   return (
     <div className="App">
       <Router>
@@ -47,7 +63,16 @@ const App = () => {
             path="/"
             element={<Main allInfo={allInfo} showProjects={showProjects} />}
           />
-          <Route path="/about" element={<About about={about} experience={ experience } />} />
+          <Route
+            path="/about"
+            element={
+              <About
+                about={about}
+                experience={experience}
+                showEducation={showEducation}
+              />
+            }
+          />
           <Route
             path="/projects"
             element={
