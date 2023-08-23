@@ -20,7 +20,7 @@ const About = ({ about, experience, showEducation }) => {
             className="text-sky-600 border-sky-600 bg-white"
             variant="outlined"
           >
-            Resume
+            See my resume
           </Button>
         </a>
       </div>
