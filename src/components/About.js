@@ -13,7 +13,7 @@ const About = ({ about, experience, showEducation }) => {
       <CertsAwards />
       <div className="mx-auto flex justify-center">
         <a
-          href="https://drive.google.com/file/d/10I6nhXQ9SKyhzq6g4XqthLDQuaZGVl-_/view?usp=sharing"
+          href="https://drive.google.com/file/d/1K2achteTrRLdIhtUZKZe8VWj9mPvF5s4/view?usp=sharing"
           target="blank"
         >
           <Button
