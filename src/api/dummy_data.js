@@ -117,7 +117,7 @@ const data = {
       name: 'Rancid Tomatillos',
       description:
         'Movie collection application that allows users to browse and filter titles by rating.',
-      url: 'https://rancid-tomatillos-puce.vercel.app/',
+      url: 'https://rancid-tomatillos-lemon.vercel.app/',
       img: rancid_img,
       gif: '',
     },
