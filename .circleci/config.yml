@@ -11,4 +11,10 @@ jobs:
       - image: cimg/node:21.0.0
     steps:
       - checkout
-      - run: node --version
+      - run: 
+        name: Install dependencies
+        command: npm install
+      - run:
+        name: Run tests
+        command: npm run tests
+        
