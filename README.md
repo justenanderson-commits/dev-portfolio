@@ -13,6 +13,8 @@ Welcome to my portfolio! I've used this project for learning, intentionally inco
 - Javascript
 - HTML 
 - CSS
+- Playwright e2e testing
+- CircleCI for CI/CD
 - Webpack module bundler
 - Git/GitHub
 - GitHub project board
