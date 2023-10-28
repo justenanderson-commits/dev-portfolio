@@ -12,8 +12,14 @@ test('about page', async ({ page }) => {
   ).toBeVisible()
 
   await page.getByRole('button', { name: 'Education' }).click();
-  const title = await page.getByRole('heading', { name: 'Turing School of Software and Design - Denver, Colorado' }).first()
+  const educationTitle = await page.getByRole('heading', { name: 'Turing School of Software and Design - Denver, Colorado' }).first()
   
-  await expect(title).toBeInViewport()
+  await expect(educationTitle).toBeInViewport()
+
+  await page.getByRole('button', { name: 'Experience' }).click();
+  await page.waitForTimeout(500)
+  const experienceTitle = await page.getByRole('heading', { name: 'Multiple Schools in Colorado & Costa Rica' })
+
+  await expect(experienceTitle).toBeVisible()
   await page.screenshot({ path: 'screenshot1.png' })
 })
