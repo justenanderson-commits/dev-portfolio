@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('home page content', async ({ page }) => {
+test('home page', async ({ page }) => {
   await page.goto('https://www.justenanderson.dev/');
 
   await expect(page).toHaveTitle('Welcome!')
@@ -16,4 +16,14 @@ test('home page content', async ({ page }) => {
   await expect(page.getByRole('heading', { name: 'Projects'})).toBeVisible()
 
   await expect(page.getByRole('heading', { name: 'Contact'})).toBeVisible()
+
+  await page.getByText('Learn More').click()
+
+  await expect(page.getByRole('heading', { name: 'About'})).toBeInViewport()
 });
+
+// test('about page content', async({ page }) => {
+//   await page.goto('https://www.justenanderson.dev/about')
+
+//   await expect(page.getByRole('heading', { name: 'About'})).toBeVisible()
+// })
