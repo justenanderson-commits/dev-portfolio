@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('test', async ({ page }) => {
+test('home page content', async ({ page }) => {
   await page.goto('https://www.justenanderson.dev/');
 
   await expect(page).toHaveTitle('Welcome!')
@@ -11,4 +11,5 @@ test('test', async ({ page }) => {
 
   await expect(page.getByText('A passionate learner and hard worker with excellent results in the military, edu')).toHaveClass('text-slate-300 pt-5 px-8 text-left lg:px-32')
 
+  await expect(page.getByRole('heading', { name: 'About'})).toBeVisible()
 });
