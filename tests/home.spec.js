@@ -22,8 +22,10 @@ test('home page', async ({ page }) => {
   await expect(page.getByRole('heading', { name: 'About'})).toBeInViewport()
 });
 
-// test('about page content', async({ page }) => {
-//   await page.goto('https://www.justenanderson.dev/about')
+test('about page', async({ page }) => {
+  await page.goto('https://www.justenanderson.dev/about')
 
-//   await expect(page.getByRole('heading', { name: 'About'})).toBeVisible()
-// })
+  await expect(page.getByRole('heading', { name: 'About'})).toBeVisible()
+
+  
+})
