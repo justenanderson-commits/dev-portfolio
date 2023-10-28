@@ -7,7 +7,7 @@ const About = ({ about, experience, showEducation }) => {
   return (
     <div className="text-slate-900 text-2xl w-full min-h-screen bg-white mb-6">
       <h1 className="text-5xl lg:text-7xl text-center pb-2 mt-8">About</h1>
-      <div className="mx-8 lg:mx-36 mt-2">{about} </div>
+      <p className="mx-8 lg:mx-36 mt-2">{about} </p>
       <Education showEducation={showEducation} />
       <Experience experience={experience} />
       <CertsAwards />
