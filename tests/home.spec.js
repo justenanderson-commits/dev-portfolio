@@ -26,24 +26,5 @@ test('home page', async ({ page }) => {
   await expect(page.getByRole('heading', { name: 'Contact' })).toBeVisible()
 
   await page.getByText('Learn More').click()
-
   await expect(page.getByRole('heading', { name: 'About' })).toBeInViewport()
 })
-
-// test('about page', async ({ page }) => {
-//   await page.goto('https://www.justenanderson.dev/about')
-
-//   await expect(page.getByRole('heading', { name: 'About' })).toBeVisible()
-
-//   await expect(
-//     page.getByText(
-//       'A hard-working, team-player with success in the military, education, and private industry.'
-//     )
-//   ).toBeVisible()
-
-//   await page.getByRole('button', { name: 'Education' }).click();
-//   const title = await page.getByRole('heading', { name: 'Turing School of Software and Design - Denver, Colorado' }).first()
-  
-//   await expect(title).toBeInViewport()
-//   await page.screenshot({ path: 'screenshot1.png' })
-// })
