@@ -27,5 +27,22 @@ test('about page', async ({ page }) => {
   await page.waitForTimeout(500)
   await expect(certsAndAwardsTitle).toBeVisible()
 
+  // await page.getByRole('button', { name: 'See my resume' }).click();
+  // const page1 = await page1Promise;
+  // const resumeTitle = await page1.getByText('Justen Anderson PDF Resume').nth(1).click();
+  // await expect(resumeTitle).toBeEditable(false)
+  // await expect(resumeTitle).toBeVisible()
+  // await expect(resumeTitle).toContainText('Justen Anderson PDF Resume.pdf')
 
 })
+
+test('test', async ({ page }) => {
+  await page.goto('https://www.justenanderson.dev/');
+  await page.getByRole('link', { name: 'About' }).first().click();
+  const page1Promise = page.waitForEvent('popup');
+  await page.getByRole('button', { name: 'See my resume' }).click();
+  const page1 = await page1Promise;
+  await page1.goto('https://drive.google.com/file/d/1K2achteTrRLdIhtUZKZe8VWj9mPvF5s4/view');
+  const resumeTitle = await page1.getByText('Justen Anderson PDF Resume.pdf').nth(1);
+  await expect(resumeTitle).toBeVisible()
+});
