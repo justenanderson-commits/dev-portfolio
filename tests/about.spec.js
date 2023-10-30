@@ -1,7 +1,8 @@
 import { test, expect } from '@playwright/test'
 
 test('about page', async ({ page }) => {
-  await page.goto('https://www.justenanderson.dev/about')
+  await page.goto('https://www.justenanderson.dev/')
+  await page.getByRole('link', { name: 'About' }).first().click();
 
   await expect(page.getByRole('heading', { name: 'About' })).toBeVisible()
 
@@ -26,5 +27,5 @@ test('about page', async ({ page }) => {
   await page.waitForTimeout(500)
   await expect(certsAndAwardsTitle).toBeVisible()
 
-  
+
 })
