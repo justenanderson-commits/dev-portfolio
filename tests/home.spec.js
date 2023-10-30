@@ -26,6 +26,5 @@ test('home page', async ({ page }) => {
   await expect(page.getByRole('heading', { name: 'Contact' })).toBeVisible()
 
   await page.getByText('Learn More').click()
-
   await expect(page.getByRole('heading', { name: 'About' })).toBeInViewport()
 })
