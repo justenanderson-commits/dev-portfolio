@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test'
 
 test('about page', async ({ page }) => {
-  await page.goto('http://localhost:3000/')
+  await page.goto('https://www.justenanderson.dev/')
   await page.getByRole('link', { name: 'About' }).first().click()
 
   await expect(page.getByRole('heading', { name: 'About' })).toBeVisible()

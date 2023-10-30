@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test'
 
 test('home page', async ({ page }) => {
-  await page.goto('http://localhost:3000/')
+  await page.goto('https://www.justenanderson.dev/')
 
   await expect(page).toHaveTitle('Welcome!')
 
