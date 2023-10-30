@@ -26,6 +26,5 @@ test('about page', async ({ page }) => {
   await page.waitForTimeout(500)
   await expect(certsAndAwardsTitle).toBeVisible()
 
-// Need to add "sad path" tests to ensure elements are hidden while accordion is closed
-// Another option may be to test if the accordion has the open/closed attribute after/before being clicked
+  
 })
